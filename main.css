@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Avenir_Black';
+  src: url("fonts/Avenir_Black.otf");
+}
+
+@font-face {
+  font-family: 'Avenir_Medium';
+  src: url("fonts/Avenir_Medium.otf");
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url("fonts/Helvetica.dfont");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +21,7 @@
 h2 {
   color: #28aef1;
   font-size: 27px;
-}
-
-@font-face {
-  font-family: 'Avenir_Medium';
-  src: url("fonts/DINOT-Black.ttf") format("ttf");
+  font-family: 'Avenir_Black';
 }
 
 header {
@@ -36,13 +47,17 @@ header #menu #options {
   display: inline-block;
   vertical-align: middle;
   align-self: center;
+  margin-bottom: 4%;
 }
 
 header #menu #options a {
+  font-family: 'Avenir_Medium';
   text-decoration: none;
+  margin-right: 40px;
 }
 
 header #menu #shoppingcart {
+  margin-top: 3%;
   display: inline-block;
   max-height: 40px;
 }
@@ -57,11 +72,11 @@ header #menu #shoppingcart {
   margin-top: -300px;
   margin-left: 6%;
   margin-bottom: 11%;
-  font-family: 'Avenir_Medium';
 }
 
 #cover #text-wrapper h1 {
   color: #28aef1;
+  font-family: 'Avenir_Black';
   font-size: 49px;
   margin-bottom: 12px;
 }
@@ -70,6 +85,7 @@ header #menu #shoppingcart {
   color: white;
   font-size: 18px;
   margin-bottom: 12px;
+  font-family: 'Helvetica';
 }
 
 #cover #text-wrapper button {
@@ -77,6 +93,7 @@ header #menu #shoppingcart {
   color: white;
   padding: 8px 70px 8px 70px;
   border-radius: 19.5px;
+  font-family: 'Avenir_Medium';
   font-size: 16px;
 }
 
