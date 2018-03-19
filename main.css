@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: avenirMedium;
+  src: url(fonts/Avenir_Medium.oft);
+}
+
+header {
+  height: 81px;
+  font-family: avenirMedium;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header #logo {
+  max-height: 24px;
+}
+
+header #shoppingcart {
+  max-height: 40px;
+}
+/*# sourceMappingURL=main.css.map */

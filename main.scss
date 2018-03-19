@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: avenirMedium;
+    src: url(fonts/Avenir_Medium.oft);
+}
+
+header{
+    height: 81px;
+    font-family: avenirMedium;
+    a{
+        text-decoration: none;
+    }
+    #logo{
+        max-height: 24px;
+    }
+    #shoppingcart{
+        max-height: 40px;
+    }
+}
