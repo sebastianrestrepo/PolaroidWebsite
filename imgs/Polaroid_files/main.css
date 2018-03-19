@@ -47,41 +47,42 @@ header #menu #shoppingcart {
   max-height: 40px;
 }
 
+#cover {
+  height: 100%;
+}
+
 #cover img {
   width: 100%;
-  display: block;
 }
 
 #cover #text-wrapper {
   position: relative;
   margin-top: -300px;
   margin-left: 6%;
-  margin-bottom: 11%;
   font-family: 'Avenir_Medium';
 }
 
 #cover #text-wrapper h1 {
   color: #28aef1;
   font-size: 49px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 #cover #text-wrapper p {
   color: white;
   font-size: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 #cover #text-wrapper button {
   background-color: #28aef1;
   color: white;
-  padding: 8px 70px 8px 70px;
+  padding: 10px 70px 10px 70px;
   border-radius: 19.5px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #products {
-  position: absolute;
   display: flex;
 }
 

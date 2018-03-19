@@ -1,23 +1,90 @@
-*{
+$blue: #28aef1;
+$yellow: #f7c238;
+$softgray: #f1f1f1;
+* {
     margin: 0;
     padding: 0;
 }
 
-@font-face {
-    font-family: avenirMedium;
-    src: url(fonts/Avenir_Medium.oft);
+h2{
+    color: $blue;
+    font-size: 27px;
 }
 
-header{
-    height: 81px;
-    font-family: avenirMedium;
-    a{
-        text-decoration: none;
-    }
-    #logo{
+@font-face {
+    font-family: 'Avenir_Medium';
+    src: url('fonts/DINOT-Black.ttf') format('ttf');
+}
+
+//Menu
+header {
+    display: flex;
+    width: 100%;
+    height: 34px;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    #logo {
         max-height: 24px;
+        margin-left: 6%;
     }
-    #shoppingcart{
-        max-height: 40px;
+    #menu {
+        margin-right: 6%;
+        #options {
+            display: inline-block;
+            vertical-align: middle;
+            align-self: center;
+            a {
+                text-decoration: none;
+            }
+        }
+        #shoppingcart {
+            display: inline-block;
+            max-height: 40px;
+        }
+    }
+}
+
+//Cover
+#cover {
+    img {
+        width: 100%;
+        display: block;
+    }
+    #text-wrapper {
+        position: relative;
+        margin-top: -300px;
+        margin-left: 6%;
+        margin-bottom: 11%;
+        font-family: 'Avenir_Medium';
+        h1 {
+            color: $blue;
+            font-size: 49px;
+            margin-bottom: 12px;
+        }
+        p {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        button {
+            background-color: $blue;
+            color: white;
+            padding: 8px 70px 8px 70px;
+            border-radius: 19.5px;
+            font-size: 16px;
+        }
+    }
+}
+
+#products {
+    position: absolute;
+    display: flex;
+    #ourcameras {
+        display: inline-block;
+    }
+    #cameras {
+        display: inline-block;
     }
 }
