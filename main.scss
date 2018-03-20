@@ -1,7 +1,6 @@
 $blue: #28aef1;
 $yellow: #f7c238;
 $softgray: #f1f1f1;
-
 @font-face {
     font-family: 'Avenir_Black';
     src: url('fonts/Avenir_Black.otf');
@@ -22,10 +21,16 @@ $softgray: #f1f1f1;
     padding: 0;
 }
 
-h2{
+h2 {
     color: $blue;
-    font-size: 27px;
+    font-size: 25px;
     font-family: 'Avenir_Black';
+}
+
+h3{
+    font-family: 'Avenir_Black';
+    color: $blue;
+    font-size: 18px;
 }
 
 //Menu
@@ -53,6 +58,17 @@ header {
                 text-decoration: none;
                 margin-right: 40px;
             }
+            /* visited link */
+            a:visited {
+                color: black;
+            }
+            /* mouse over link */
+            a:hover {
+                color: $blue;
+            }
+            a:active {
+                color: $blue;
+            }
         }
         #shoppingcart {
             margin-top: 3%;
@@ -70,9 +86,9 @@ header {
     }
     #text-wrapper {
         position: relative;
-        margin-top: -300px;
+        margin-top: -350px;
         margin-left: 6%;
-        margin-bottom: 11%;
+        margin-bottom: 13%;
         h1 {
             color: $blue;
             font-family: 'Avenir_Black';
@@ -99,10 +115,35 @@ header {
 #products {
     position: absolute;
     display: flex;
+    margin: 6% 6% 0 6%;
+    h2 {
+        margin-bottom: 5%;
+    }
     #ourcameras {
         display: inline-block;
+        margin-right: 5%;
+        .information{
+            padding-bottom: 30px;
+        }
     }
     #cameras {
         display: inline-block;
+        .information{
+            padding-bottom: 30px;
+        }
     }
+    .information {
+        background-color: $softgray;
+        padding: 30px 30px 30px;
+        p{
+            font-family: 'Helvetica';
+            color: black;
+            font-size: 16px;
+        }
+    }
+}
+
+#social{
+    position: absolute;
+    display: flex;
 }
