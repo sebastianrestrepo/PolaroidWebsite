@@ -204,9 +204,28 @@ header #menu #shoppingcart {
 
 #social #text-wrapper-instagram h2 {
   margin-bottom: 0.1em;
+  display: block;
 }
 
 #social #text-wrapper-instagram .yellowh2 {
   color: #f7c238;
+  display: block;
+}
+
+#social #text-wrapper-instagram button {
+  display: block;
+}
+
+#tellus {
+  position: absolute;
+  display: flex;
+}
+
+#tellus #camerainteraction img {
+  width: 100%;
+}
+
+#tellus #camerainteraction p {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

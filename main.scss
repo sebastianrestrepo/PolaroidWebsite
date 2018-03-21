@@ -1,6 +1,7 @@
 $blue: #28aef1;
 $yellow: #f7c238;
 $softgray: #f1f1f1;
+
 @font-face {
     font-family: 'Avenir_Black';
     src: url('fonts/Avenir_Black.otf');
@@ -160,7 +161,6 @@ header {
         margin-right: 5%;
         .twitter-timeline{
             overflow: scroll;
-           // max-height: 453px;
         }
     }
     #igphoto {
@@ -183,9 +183,27 @@ header {
         display: inline-block;
         h2{
             margin-bottom: 0.1em;
+            display: block;
         }
         .yellowh2{
             color: $yellow;
+            display: block;
+        }
+        button{
+            display: block;
+        }
+    }
+}
+
+#tellus {
+    position: absolute;
+    display: flex;
+    #camerainteraction{
+        img{
+            width:100%;
+        }
+        p{
+            text-align: center;
         }
     }
 }
