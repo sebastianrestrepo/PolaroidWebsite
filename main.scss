@@ -1,7 +1,6 @@
 $blue: #28aef1;
 $yellow: #f7c238;
 $softgray: #f1f1f1;
-
 @font-face {
     font-family: 'Avenir_Black';
     src: url('fonts/Avenir_Black.otf');
@@ -159,13 +158,13 @@ header {
 #social {
     width: 1120px;
     margin: auto;
-    max-height: 453px;
+    max-height: 511px;
     h2 {
         margin-bottom: 5%;
         display: block;
     }
     #socialcontainer {
-            display: flex;
+        display: flex;
         #twitter {
             display: inline-block;
             margin-right: 5%;
@@ -207,13 +206,46 @@ header {
 }
 
 #tellus {
-    display: flex;
+    margin-bottom: 6%;
+    h2 {
+        margin: 6% 0 5% 0;
+        text-align: center;
+        display: block;
+    }
     #camerainteraction {
+        display: block;
         img {
             width: 100%;
         }
         p {
             text-align: center;
+        }
+    }
+}
+
+#newsletter {
+    background-color: $blue;
+    padding: 5% 6% 5% 6%;
+    #text-wrapper-nl{
+        h2 {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
+    }
+    display: inline-block;
+    #input-wrapper-nl{
+        display: block;
+        label{
+           font-family: 'Helvetica';
+           font-size: 12px;
+           color: $white;
+        }
+        button{
+            background-color: $yellow;
+            color: $white;
+            display: block;
         }
     }
 }
