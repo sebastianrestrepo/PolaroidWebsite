@@ -35,6 +35,11 @@ p {
   font-family: 'Helvetica';
 }
 
+a:visited {
+  text-decoration: none;
+  color: none;
+}
+
 button {
   background-color: #28aef1;
   color: white;
@@ -42,13 +47,15 @@ button {
   border-radius: 19.5px;
   font-family: 'Avenir_Medium';
   font-size: 16px;
+  outline: none;
+  border: none;
 }
 
 header {
   display: flex;
   width: 100%;
   height: 34px;
-  padding: 10px;
+  padding: 10px 0 10px 0;
   background-color: white;
   justify-content: space-between;
   align-items: center;
@@ -56,18 +63,18 @@ header {
 
 header #logo {
   max-height: 24px;
-  margin-left: 6%;
+  margin-left: auto;
+  margin-right: 550px;
 }
 
 header #menu {
-  margin-right: 6%;
+  margin-right: auto;
 }
 
 header #menu #options {
   display: inline-block;
-  vertical-align: middle;
-  align-self: center;
-  margin-bottom: 4%;
+  margin: auto 0 auto 0;
+  height: 40px;
   /* visited link */
   /* mouse over link */
 }
@@ -91,7 +98,8 @@ header #menu #options a:active {
 }
 
 header #menu #shoppingcart {
-  margin-top: 3%;
+  margin: auto 0 auto 0;
+  height: 40px;
   display: inline-block;
   max-height: 40px;
 }
@@ -122,7 +130,8 @@ header #menu #shoppingcart {
 
 #products {
   display: flex;
-  margin: 6% 6% 0 6%;
+  margin: 6% auto;
+  width: 1120px;
 }
 
 #products h2 {
@@ -158,66 +167,68 @@ header #menu #shoppingcart {
 }
 
 #social {
-  position: absolute;
-  display: flex;
-  margin: 6% 6% 0 6%;
+  width: 1120px;
+  margin: auto;
   max-height: 453px;
-  display: block;
 }
 
 #social h2 {
   margin-bottom: 5%;
+  display: block;
 }
 
-#social #twitter {
+#social #socialcontainer {
+  display: flex;
+}
+
+#social #socialcontainer #twitter {
   display: inline-block;
   margin-right: 5%;
 }
 
-#social #twitter .twitter-timeline {
+#social #socialcontainer #twitter .twitter-timeline {
   overflow: scroll;
 }
 
-#social #igphoto {
+#social #socialcontainer #igphoto {
   display: inline-block;
   margin-right: 5%;
 }
 
-#social #igphoto .information {
+#social #socialcontainer #igphoto .information {
   background-color: #f1f1f1;
   padding: 10px;
 }
 
-#social #igphoto .information h3 {
+#social #socialcontainer #igphoto .information h3 {
   font-size: 18px;
 }
 
-#social #igphoto .information p {
+#social #socialcontainer #igphoto .information p {
   font-family: 'Helvetica';
   color: black;
   font-size: 16px;
 }
 
-#social #text-wrapper-instagram {
+#social #socialcontainer #text-wrapper-instagram {
   display: inline-block;
 }
 
-#social #text-wrapper-instagram h2 {
+#social #socialcontainer #text-wrapper-instagram h2 {
   margin-bottom: 0.1em;
   display: block;
 }
 
-#social #text-wrapper-instagram .yellowh2 {
+#social #socialcontainer #text-wrapper-instagram .yellowh2 {
   color: #f7c238;
   display: block;
 }
 
-#social #text-wrapper-instagram button {
+#social #socialcontainer #text-wrapper-instagram button {
   display: block;
 }
 
 #tellus {
-  position: absolute;
   display: flex;
 }
 
