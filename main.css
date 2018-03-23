@@ -73,7 +73,8 @@ header #menu {
 }
 
 header #menu #options {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   /* visited link */
   /* mouse over link */
@@ -211,21 +212,17 @@ header #menu #shoppingcart {
 }
 
 #social #socialcontainer #text-wrapper-instagram {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #social #socialcontainer #text-wrapper-instagram h2 {
   margin-bottom: 0.1em;
-  display: block;
 }
 
 #social #socialcontainer #text-wrapper-instagram .yellowh2 {
   color: #f7c238;
-  display: block;
-}
-
-#social #socialcontainer #text-wrapper-instagram button {
-  display: block;
 }
 
 #tellus {
@@ -300,8 +297,59 @@ header #menu #shoppingcart {
   padding: 0 50px 0 50px;
 }
 
+#footer h5 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+#footer p {
+  font-family: 'Helvetica';
+  font-size: 14px;
+  color: #333333;
+}
+
+#footer li {
+  font-family: 'Helvetica';
+  font-size: 14px;
+  color: #333333;
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+
 #footer #real-footer {
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #f1f1f1;
+  padding: 5% 6% 5% 6%;
+}
+
+#footer #real-footer #left-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#footer #real-footer #left-footer img {
+  max-width: 145px;
+  margin-bottom: 10px;
+}
+
+#footer #real-footer #right-footer {
+  display: flex;
+}
+
+#footer #real-footer #right-footer #help {
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+}
+
+#footer #real-footer #right-footer #about {
+  display: flex;
+  flex-direction: column;
 }
 /*# sourceMappingURL=main.css.map */
