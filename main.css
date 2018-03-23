@@ -253,8 +253,6 @@ header #menu #shoppingcart {
 #newsletter {
   background-color: #28aef1;
   padding: 5% 6% 5% 6%;
-  width: 100%;
-  display: flex;
 }
 
 #newsletter #text-wrapper-nl {
@@ -302,7 +300,7 @@ header #menu #shoppingcart {
   padding: 0 50px 0 50px;
 }
 
-.footer {
+#footer #real-footer {
   width: 100%;
   background-color: #f1f1f1;
 }
