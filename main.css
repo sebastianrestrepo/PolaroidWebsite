@@ -69,12 +69,12 @@ header #logo {
 
 header #menu {
   margin-right: auto;
+  display: flex;
 }
 
 header #menu #options {
   display: inline-block;
-  margin: auto 0 auto 0;
-  height: 40px;
+  align-items: center;
   /* visited link */
   /* mouse over link */
 }
@@ -228,6 +228,10 @@ header #menu #shoppingcart {
   display: block;
 }
 
+#tellus {
+  margin-bottom: 6%;
+}
+
 #tellus h2 {
   margin: 6% 0 5% 0;
   text-align: center;
@@ -248,22 +252,58 @@ header #menu #shoppingcart {
 
 #newsletter {
   background-color: #28aef1;
+  padding: 5% 6% 5% 6%;
+  width: 100%;
+  display: flex;
+}
+
+#newsletter #text-wrapper-nl {
+  display: inline-block;
 }
 
 #newsletter #text-wrapper-nl h2 {
-  color: black;
+  color: white;
 }
 
 #newsletter #text-wrapper-nl p {
-  color: black;
+  color: white;
+}
+
+#newsletter #input-wrapper-nl {
+  margin-left: 97px;
+  display: inline-block;
 }
 
 #newsletter #input-wrapper-nl label {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  display: block;
   font-family: 'Helvetica';
-  font-size: 16px;
+  font-size: 14px;
+  color: white;
+}
+
+#newsletter #input-wrapper-nl input {
+  display: inline-block;
+  width: 450px;
+  height: 30px;
+  border-radius: 19.5px;
+  padding-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
 }
 
 #newsletter #input-wrapper-nl button {
+  display: inline-block;
   background-color: #f7c238;
+  color: white;
+  height: 31px;
+  padding: 0 50px 0 50px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f1f1f1;
 }
 /*# sourceMappingURL=main.css.map */

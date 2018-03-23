@@ -70,10 +70,10 @@ header {
     }
     #menu {
         margin-right: auto;
+        display: flex;
         #options {
             display: inline-block;
-            margin: auto 0 auto 0;
-            height: 40px;
+            align-items: center;
             a {
                 font-family: 'Avenir_Medium';
                 text-decoration: none;
@@ -226,26 +226,49 @@ header {
 #newsletter {
     background-color: $blue;
     padding: 5% 6% 5% 6%;
+    width: 100%;
+    display: flex;
     #text-wrapper-nl{
+        display: inline-block;
         h2 {
-            color: $white;
+            color: white;
         }
         p {
-            color: $white;
+            color: white;
         }
     }
-    display: inline-block;
     #input-wrapper-nl{
-        display: block;
+        margin-left: 97px;
+        display: inline-block;
         label{
+           margin-left: 5px;
+           margin-bottom: 5px;
+           display: block;
            font-family: 'Helvetica';
-           font-size: 12px;
-           color: $white;
+           font-size: 14px;
+           color: white;
+        }
+        input{
+            display: inline-block;
+            width: 450px;
+            height: 30px;
+            border-radius: 19.5px;
+            padding-left: 10px;
+            margin-right: 10px;
+            outline: none;
+            border: none;
         }
         button{
+            display: inline-block;
             background-color: $yellow;
-            color: $white;
-            display: block;
+            color: white;
+            height: 31px;
+            padding: 0 50px 0 50px;
         }
     }
+}
+
+.footer{
+    width:100%;
+    background-color: $softgray;
 }
