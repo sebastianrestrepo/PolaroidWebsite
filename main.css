@@ -156,7 +156,7 @@ header #menu #shoppingcart {
 }
 
 #products h2 {
-  margin-bottom: 5%;
+  margin-bottom: 36px;
 }
 
 #products #ourcameras {
@@ -164,8 +164,12 @@ header #menu #shoppingcart {
   margin-right: 5%;
 }
 
+#products #ourcameras img {
+  width: 100%;
+}
+
 #products #ourcameras .information {
-  padding-bottom: 30px;
+  padding-bottom: 21px;
 }
 
 #products #ourcameras .information #infocam {
@@ -183,7 +187,7 @@ header #menu #shoppingcart {
 #products #ourcameras .information button {
   display: inline-block;
   margin-bottom: 5px;
-  padding: 5px;
+  padding: 2px 10px 2px 10px;
   border-radius: 4px;
 }
 
@@ -213,7 +217,7 @@ header #menu #shoppingcart {
 }
 
 #social h2 {
-  margin-bottom: 5%;
+  margin-bottom: 35px;
   display: block;
 }
 
@@ -265,11 +269,11 @@ header #menu #shoppingcart {
 }
 
 #tellus {
-  margin-bottom: 6%;
+  margin-bottom: 30px;
 }
 
 #tellus h2 {
-  margin: 6% 0 5% 0;
+  margin: 30px 0 30px 0;
   text-align: center;
   display: block;
 }
@@ -284,11 +288,13 @@ header #menu #shoppingcart {
 
 #tellus #camerainteraction p {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 #newsletter {
   background-color: #28aef1;
-  padding: 5% 6% 5% 6%;
+  padding: 35px 6% 35px 6%;
 }
 
 #newsletter #text-wrapper-nl {
