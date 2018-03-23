@@ -1,3 +1,4 @@
+//SLIDE CODE
 var btnSlideLeft = document.getElementById("btn-left");
 var btnSlideRight = document.getElementById("btn-right");
 
