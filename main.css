@@ -51,6 +51,18 @@ button {
   border: none;
 }
 
+@media screen and (max-width: 600px) {
+  #hambmenu {
+    display: block;
+  }
+  #options {
+    display: none;
+  }
+  header {
+    background-color: black;
+  }
+}
+
 header {
   display: flex;
   width: 100%;
@@ -59,6 +71,14 @@ header {
   background-color: white;
   justify-content: space-between;
   align-items: center;
+}
+
+header #hambmenu {
+  display: none;
+}
+
+header #toggle {
+  display: none;
 }
 
 header #logo {
@@ -131,7 +151,7 @@ header #menu #shoppingcart {
 
 #products {
   display: flex;
-  margin: 6% auto;
+  margin: 5% auto;
   width: 1120px;
 }
 
@@ -146,6 +166,25 @@ header #menu #shoppingcart {
 
 #products #ourcameras .information {
   padding-bottom: 30px;
+}
+
+#products #ourcameras .information #infocam {
+  display: inline-block;
+}
+
+#products #ourcameras .information #infocam h3 {
+  display: block;
+}
+
+#products #ourcameras .information #infocam p {
+  display: block;
+}
+
+#products #ourcameras .information button {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
 }
 
 #products #cameras {

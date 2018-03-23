@@ -13,7 +13,8 @@
 <body>
     <header>
         <img src="imgs/logo.png" alt="" id="logo">
-
+<label for="toggle" id="hambmenu">&#9776;</label>
+<input type="checkbox" id="toggle"/>
         <!-- Menu -->
         <div id="menu">
             <div id="options">
@@ -46,12 +47,17 @@
 
         <div id="ourcameras">
             <h2>Our Cameras</h2>
-            <img src="imgs/onestep2.png" alt="">
+            <img class="slide" src="imgs/slide1.png">
+            <img class="slide" src="imgs/slide2.png">
 
             <div class="information">
+                <div id="infocam">
                 <h3>Camera One Step 2</h3>
                 <p>The OneStep 2 is the new polaroid camera that blends classic design with
                     <br> contemporary style to bring you the best experience.</p>
+                </div>
+                    <button id="btn-left" class="btn blackbtn btndisplayLeft" onclick="plusDivs(-1)">&#10094;</button>
+                    <button id="btn-right" class="btn w3-black btndisplayRight" onclick="plusDivs(1)">&#10095;</button>
             </div>
 
         </div>
@@ -124,6 +130,8 @@
         </div>
     </div>
 
+<!-- Script Link -->
+    <script src="main.js"></script>
 </body>
 
 <!--Footer-->

@@ -55,6 +55,18 @@ button {
     border: none;
 }
 
+@media screen and (max-width: 600px) {
+    #hambmenu {
+        display: block;
+    }
+    #options {
+        display: none;
+    }
+    header {
+        background-color: black;
+    }
+}
+
 //Menu
 header {
     display: flex;
@@ -64,6 +76,12 @@ header {
     background-color: white;
     justify-content: space-between;
     align-items: center;
+    #hambmenu {
+        display: none;
+    }
+    #toggle {
+        display: none;
+    }
     #logo {
         max-height: 24px;
         margin-left: auto;
@@ -128,7 +146,7 @@ header {
 
 #products {
     display: flex;
-    margin: 6% auto;
+    margin: 5% auto;
     width: 1120px;
     h2 {
         margin-bottom: 5%;
@@ -138,6 +156,21 @@ header {
         margin-right: 5%;
         .information {
             padding-bottom: 30px;
+            #infocam {
+                display:inline-block;
+                h3 {
+                    display: block;
+                }
+                p {
+                    display: block;
+                }
+            }
+            button {
+                display: inline-block;
+                margin-bottom: 5px;
+                padding: 5px;
+                border-radius: 4px;
+            }
         }
     }
     #cameras {
@@ -196,15 +229,11 @@ header {
             justify-content: center;
             h2 {
                 margin-bottom: 0.1em;
-                
             }
             .yellowh2 {
                 color: $yellow;
-               
             }
-            button {
-               
-            }
+            button {}
         }
     }
 }
@@ -292,7 +321,6 @@ header {
         list-style-type: none;
         margin-bottom: 6px;
     }
-
     #real-footer {
         display: flex;
         flex-direction: row;
@@ -302,16 +330,14 @@ header {
         #left-footer {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-          //  margin-right: 140px;
+            justify-content: space-around; //  margin-right: 140px;
             img {
                 max-width: 145px;
                 margin-bottom: 10px;
             }
         }
         #right-footer {
-            display: flex;
-          //  margin-right: 130px;
+            display: flex; //  margin-right: 130px;
             #help {
                 display: flex;
                 flex-direction: column;
