@@ -51,40 +51,32 @@ button {
   border: none;
 }
 
-@media screen and (max-width: 600px) {
-  #hambmenu {
-    display: block;
-  }
-  #options {
-    display: none;
-  }
-  header {
-    background-color: black;
-  }
-}
-
 header {
   display: flex;
   width: 100%;
-  height: 34px;
+  max-height: 34px;
   padding: 10px 0 10px 0;
   background-color: white;
   justify-content: space-between;
   align-items: center;
 }
 
-header #hambmenu {
+header #menu-icons {
+  max-height: 24px;
+  margin-left: auto;
+  margin-right: 550px;
+}
+
+header #menu-icons #hambmenu {
   display: none;
+}
+
+header #menu-icons #logo {
+  max-height: 24px;
 }
 
 header #toggle {
   display: none;
-}
-
-header #logo {
-  max-height: 24px;
-  margin-left: auto;
-  margin-right: 550px;
 }
 
 header #menu {
@@ -396,5 +388,81 @@ header #menu #shoppingcart {
 #footer #real-footer #right-footer #about {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    display: block;
+    max-height: 200px;
+    padding: 0;
+  }
+  header #menu-icons {
+    height: 34px;
+    width: 100%;
+    display: flex;
+    padding: 10px 0 10px 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header #menu-icons #logo {
+    display: flex;
+    margin-left: 6%;
+  }
+  header #menu-icons #hambmenu {
+    display: flex;
+    margin-right: 6%;
+    cursor: pointer;
+  }
+  header #menu {
+    display: none;
+    width: 100%;
+  }
+  header #menu #options {
+    display: none;
+    text-align: center;
+    width: 100%;
+  }
+  header #menu #options a {
+    display: none;
+    width: 100%;
+    border-top: 1px solid #EAEAEB;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+  }
+  header #toggle:checked + #menu {
+    display: block;
+  }
+  header #toggle:checked + #menu #options {
+    display: block;
+  }
+  header #toggle:checked + #menu #options a {
+    display: block;
+  }
+  #cover #text-wrapper {
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 6%;
+    margin-bottom: 13%;
+  }
+  #cover #text-wrapper h1 {
+    color: #28aef1;
+    font-family: 'Avenir_Black';
+    font-size: 45px;
+    margin-bottom: 12px;
+  }
+  #cover #text-wrapper p {
+    color: white;
+    font-size: 15px;
+  }
+  #cover #text-wrapper button {
+    background-color: #28aef1;
+    color: white;
+    padding: 8px 70px 8px 70px;
+    border-radius: 19.5px;
+    font-family: 'Avenir_Medium';
+    font-size: 15px;
+    outline: none;
+    border: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
