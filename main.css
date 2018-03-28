@@ -505,10 +505,10 @@ header #menu #shoppingcart {
   }
   #products #complements-cont #complements {
     display: inline-block;
-    width: 49%;
+    width: 50%;
   }
   #products #complements-cont #wear {
-    display: inline-block;
+    display: none;
     width: 49%;
   }
   #products #complements-cont .information {
@@ -525,7 +525,14 @@ header #menu #shoppingcart {
     font-size: 14px;
   }
   #social {
-    width: 100%;
+    max-width: 80%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 25px;
+  }
+  #social h2 {
+    font-size: 24px;
+    margin: 0 0 25px 0;
   }
   #social #socialcontainer #twitter {
     display: none;
@@ -533,8 +540,83 @@ header #menu #shoppingcart {
   #social #socialcontainer #ig-photo {
     display: inline-block;
   }
-  #social #socialcontainer #text-wrapper-instagram {
-    display: inline-block;
+  #social #socialcontainer #ig-photo .information h3 {
+    font-size: 15px;
+  }
+  #social #socialcontainer #ig-photo .information p {
+    font-size: 12px;
+  }
+  #social #socialcontainer #text-wrapper-instagram h2 {
+    font-size: 24px;
+    margin-bottom: 0.01em;
+  }
+  #social #socialcontainer #text-wrapper-instagram p {
+    font-size: 14px;
+  }
+  #social #socialcontainer #text-wrapper-instagram button {
+    background-color: #28aef1;
+    color: white;
+    padding: 8px 60px 8px 60px;
+    border-radius: 19.5px;
+    font-family: 'Avenir_Medium';
+    font-size: 15px;
+    outline: none;
+    border: none;
+  }
+  #tellus {
+    margin-bottom: 25px;
+  }
+  #tellus h2 {
+    font-size: 24px;
+    margin: 0 0 25px 0;
+    margin-bottom: 25px;
+  }
+  #tellus p {
+    font-size: 14px;
+  }
+  #newsletter h2 {
+    font-size: 24px;
+    margin: 0 0 25px 0;
+    margin-bottom: 0.01em;
+  }
+  #newsletter p {
+    font-size: 14px;
+  }
+  #newsletter #text-wrapper-nl {
+    display: block;
+    margin-left: 6%;
+  }
+  #newsletter #input-wrapper-nl {
+    display: block;
+    margin-left: 6%;
+  }
+  #newsletter #input-wrapper-nl input {
+    width: 60%;
+    height: 25px;
+    padding-left: 5px;
+    margin-right: 5px;
+  }
+  #newsletter #input-wrapper-nl button {
+    width: 30%;
+    height: 28px;
+  }
+  #footer h5 {
+    font-size: 13px;
+  }
+  #footer p {
+    font-size: 12px;
+  }
+  #footer li {
+    font-size: 13px;
+  }
+  #footer #left-footer {
+    margin-right: 25px;
+  }
+  #footer #realfooter #right-footer #help {
+    margin-right: 25px;
+  }
+  #footer #realfooter #right-footer #about {
+    margin-right: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */

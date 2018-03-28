@@ -459,18 +459,18 @@ header {
             margin-left: 6%;
             margin-right: 6%;
             img {
-                //max-width: 285px;
+                //width: 100%;
             }
             #complements {
                 display: inline-block;
-                width: 49%;
+                width: 50%;
             }
             #wear {
-                display: inline-block;
+                display: none;
                 width: 49%;
             }
             .information {
-                width:100%;
+                width: 100%;
                 padding-bottom: 18px;
                 display: block;
                 h3 {
@@ -485,17 +485,117 @@ header {
         }
     } //Social
     #social {
-        width: 100%;
+        max-width: 80%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 25px;
+        h2 {
+            font-size: 24px;
+            margin: 0 0 25px 0;
+        }
         #socialcontainer {
             #twitter {
                 display: none;
             }
             #ig-photo {
                 display: inline-block;
+                .information {
+                    h3 {
+                        font-size: 15px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
             }
             #text-wrapper-instagram {
-                display: inline-block;
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 0.01em;
+                }
+                p {
+                    font-size: 14px;
+                }
+                button {
+                    background-color: $blue;
+                    color: white;
+                    padding: 8px 60px 8px 60px;
+                    border-radius: 19.5px;
+                    font-family: 'Avenir_Medium';
+                    font-size: 15px;
+                    outline: none;
+                    border: none;
+                }
             }
         }
-    } //FINAL MEDIA-QUERY
+    } //tell us
+    #tellus {
+        margin-bottom: 25px;
+        h2 {
+            font-size: 24px;
+            margin: 0 0 25px 0;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    //Newsletter
+    #newsletter {
+        h2 {
+            font-size: 24px;
+            margin: 0 0 25px 0;
+            margin-bottom: 0.01em;
+        }
+        p {
+            font-size: 14px;
+        }
+        #text-wrapper-nl {
+            display: block;
+            margin-left: 6%;
+        }
+        #input-wrapper-nl {
+            display: block;
+            margin-left: 6%;
+            input{
+                width: 60%;
+                height: 25px;
+                padding-left: 5px;
+                margin-right: 5px;
+            }
+            button {
+                width: 30%;
+                height: 28px;  
+            }
+        }
+    }
+    
+    //Footer
+    #footer{
+        h5{
+            font-size: 13px; 
+        }
+        p{
+            font-size: 12px;             
+        }
+        li{
+            font-size: 13px; 
+        }
+        #left-footer{
+            margin-right: 25px;            
+        }
+        #realfooter{
+            #right-footer{
+                #help{
+                    margin-right: 25px;       
+                }
+                #about{
+                    margin-right: 15px;                      
+                }
+            }
+        }
+    }
+    
+    //FINAL MEDIA-QUERY
 }
