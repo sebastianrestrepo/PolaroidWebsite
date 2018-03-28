@@ -167,11 +167,14 @@ header {
             }
         }
     }
-    #cameras {
+    #complements {
         display: inline-block;
         .information {
             padding-bottom: 30px;
         }
+    }
+    #wear {
+        display: none;
     }
     .information {
         background-color: $softgray;
@@ -419,6 +422,79 @@ header {
                 font-size: 15px;
                 outline: none;
                 border: none;
+            }
+        }
+    } //Products
+    #products {
+        flex-direction: column;
+        width: 100%;
+        h2 {
+            font-size: 24px;
+            margin: 0 0 25px 0;
+        }
+        #ourcameras {
+            display: block;
+            margin-left: 6%;
+            margin-bottom: 25px;
+            img {
+                width: 100%;
+            }
+            .information {
+                padding-bottom: 18px;
+                #infocam {
+                    display: inline-block;
+                    h3 {
+                        display: block;
+                        font-size: 15px;
+                    }
+                    p {
+                        display: block;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        #complements-cont {
+            display: block;
+            margin-left: 6%;
+            margin-right: 6%;
+            img {
+                //max-width: 285px;
+            }
+            #complements {
+                display: inline-block;
+                width: 49%;
+            }
+            #wear {
+                display: inline-block;
+                width: 49%;
+            }
+            .information {
+                width:100%;
+                padding-bottom: 18px;
+                display: block;
+                h3 {
+                    display: block;
+                    font-size: 15px;
+                }
+                p {
+                    display: block;
+                    font-size: 14px;
+                }
+            }
+        }
+    } //Social
+    #social {
+        width: 100%;
+        #socialcontainer {
+            #twitter {
+                display: none;
+            }
+            #ig-photo {
+                display: inline-block;
+            }
+            #text-wrapper-instagram {
+                display: inline-block;
             }
         }
     } //FINAL MEDIA-QUERY

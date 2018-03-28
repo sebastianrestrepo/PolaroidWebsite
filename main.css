@@ -183,12 +183,16 @@ header #menu #shoppingcart {
   border-radius: 4px;
 }
 
-#products #cameras {
+#products #complements {
   display: inline-block;
 }
 
-#products #cameras .information {
+#products #complements .information {
   padding-bottom: 30px;
+}
+
+#products #wear {
+  display: none;
 }
 
 #products .information {
@@ -463,6 +467,74 @@ header #menu #shoppingcart {
     font-size: 15px;
     outline: none;
     border: none;
+  }
+  #products {
+    flex-direction: column;
+    width: 100%;
+  }
+  #products h2 {
+    font-size: 24px;
+    margin: 0 0 25px 0;
+  }
+  #products #ourcameras {
+    display: block;
+    margin-left: 6%;
+    margin-bottom: 25px;
+  }
+  #products #ourcameras img {
+    width: 100%;
+  }
+  #products #ourcameras .information {
+    padding-bottom: 18px;
+  }
+  #products #ourcameras .information #infocam {
+    display: inline-block;
+  }
+  #products #ourcameras .information #infocam h3 {
+    display: block;
+    font-size: 15px;
+  }
+  #products #ourcameras .information #infocam p {
+    display: block;
+    font-size: 14px;
+  }
+  #products #complements-cont {
+    display: block;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  #products #complements-cont #complements {
+    display: inline-block;
+    width: 49%;
+  }
+  #products #complements-cont #wear {
+    display: inline-block;
+    width: 49%;
+  }
+  #products #complements-cont .information {
+    width: 100%;
+    padding-bottom: 18px;
+    display: block;
+  }
+  #products #complements-cont .information h3 {
+    display: block;
+    font-size: 15px;
+  }
+  #products #complements-cont .information p {
+    display: block;
+    font-size: 14px;
+  }
+  #social {
+    width: 100%;
+  }
+  #social #socialcontainer #twitter {
+    display: none;
+  }
+  #social #socialcontainer #ig-photo {
+    display: inline-block;
+  }
+  #social #socialcontainer #text-wrapper-instagram {
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=main.css.map */
