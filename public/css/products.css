@@ -1,7 +1,119 @@
-div {
+@font-face {
+  font-family: 'Avenir_Black';
+  src: url("fonts/Avenir_Black.otf");
+}
+
+@font-face {
+  font-family: 'Avenir_Medium';
+  src: url("fonts/Avenir_Medium.otf");
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url("fonts/HelveticaNeue.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #28aef1;
+  font-size: 25px;
+  font-family: 'Avenir_Black';
+}
+
+h3 {
+  font-family: 'Avenir_Black';
+  color: #28aef1;
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 12px;
+  font-family: 'Helvetica';
+}
+
+a:visited {
+  text-decoration: none;
+  color: none;
+}
+
+button {
+  background-color: #28aef1;
+  color: white;
+  padding: 8px 70px 8px 70px;
+  border-radius: 19.5px;
+  font-family: 'Avenir_Medium';
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+header {
+  display: flex;
   width: 100%;
-  height: 100%;
-  background-color: red;
-  color: blue;
+  max-height: 34px;
+  padding: 10px 0 10px 0;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #menu-icons {
+  max-height: 24px;
+  margin-left: 6%;
+  margin-right: 25%;
+}
+
+header #menu-icons #hambmenu {
+  display: none;
+}
+
+header #menu-icons #logo {
+  max-height: 24px;
+}
+
+header #toggle {
+  display: none;
+}
+
+header #menu {
+  margin-right: 6%;
+  display: flex;
+}
+
+header #menu #options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* visited link */
+  /* mouse over link */
+}
+
+header #menu #options a {
+  font-family: 'Avenir_Medium';
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+header #menu #options a:visited {
+  color: black;
+}
+
+header #menu #options a:hover {
+  color: #28aef1;
+}
+
+header #menu #options a:active {
+  color: #28aef1;
+}
+
+header #menu #shoppingcart {
+  margin: auto 0 auto 0;
+  height: 40px;
+  display: inline-block;
+  max-height: 40px;
 }
 /*# sourceMappingURL=products.css.map */
