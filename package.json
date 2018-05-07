@@ -1,0 +1,25 @@
+{
+  "name": "polaroidwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianrestrepo/PolaroidWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianrestrepo/PolaroidWebsite/issues"
+  },
+  "homepage": "https://github.com/sebastianrestrepo/PolaroidWebsite#readme",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "nodemon": "^1.17.4"
+  }
+}
