@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="shortcut icon" type="img/png" href="public/imgs/favicon.png">
-<link rel="stylesheet" href="./css/products.css">
+    <link rel="shortcut icon" type="img/png" href="public/imgs/favicon.png">
+    <link rel="stylesheet" href="./css/products.css">
     <title>Polaroid: Products</title>
 </head>
+
 <body>
-        <header>
+    <header>
         <div id="menu-icons">
             <img src="imgs/logo.png" alt="" id="logo">
             <label for="toggle" id="hambmenu">&#9776;</label>
@@ -27,7 +29,64 @@
                 </a>
             </div>
         </div>
-
     </header>
+
+    <!-- search div -->
+    <div id="search-div">
+        <div id="img-wrapper">
+            <img src="imgs/products/hand.png" alt="" id="logo">
+        </div>
+        <div id="title-wrapper">
+            <h1>Products</h1>
+            <p>Explore our store and take what you want!</p>
+            <div id="search-input-wrapper">
+                <input type="text" name="fname">
+                <button>Search</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="body-section">
+        <!-- filters body -->
+        <div id="filters-body">
+            
+            <h2>Filters</h2>
+            <div id="order">
+                <label for="">Order by</label>
+                <select name="programa">
+                    <option value="Windows" selected="selected">Popularity</option>
+                    <option value="Machintosh">Mac</option>
+                    <option value="Linux">Linux</option>
+                </select>
+            </div>
+            <div id="typology">
+                <label for="">Typology</label>
+                <form action="">
+                    <input type="radio" name="gender" value="male"> Everything
+                    <br>
+                    <input type="radio" name="gender" value="female"> Photo Paper
+                    <br>
+                    <input type="radio" name="gender" value="other"> Accesories
+                    <br>
+                    <input type="radio" name="gender" value="other"> Clothes
+                </form>
+            </div>
+            <div id="prize">
+                <label for="">Prize</label>
+                <form method="post" action="/action_page_post.php">
+                    <div data-role="rangeslider">
+                           <label for="">$10</label> <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000"><label for="">$1000</label>
+                    </div>
+            </div>
+
+        </div>
+
+        <!-- products body -->
+        <div id="products-body">
+
+        </div>
+    </section>
+
 </body>
+
 </html>

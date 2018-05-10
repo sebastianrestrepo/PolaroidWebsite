@@ -2,25 +2,31 @@ $blue: #28aef1;
 $yellow: #f7c238;
 $softgray: #f1f1f1;
 $gray: #333333;
-
 @font-face {
     font-family: 'Avenir_Black';
-    src: url('fonts/Avenir_Black.otf');
+    src: url('public/fonts/Avenir_Black.otf');
 }
 
 @font-face {
     font-family: 'Avenir_Medium';
-    src: url('fonts/Avenir_Medium.otf');
+    src: url('public/fonts/Avenir_Medium.otf');
 }
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('fonts/HelveticaNeue.ttf');
+    src: url('public/fonts/HelveticaNeue.ttf');
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    color: $blue;
+    font-family: 'Avenir_Black';
+    font-size: 49px;
+    margin-bottom: 12px;
 }
 
 h2 {
@@ -109,5 +115,53 @@ header {
             display: inline-block;
             max-height: 40px;
         }
+    }
+}
+
+//Search Div
+#search-div {
+    background-color: $yellow;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    #title-wrapper {
+        margin-left: 80px;
+        input {
+            display: inline-block;
+            width: 400px;
+            height: 30px;
+            border-radius: 19.5px;
+            padding-left: 10px;
+            margin-right: 10px;
+            outline: none;
+            border: none;
+        }
+        button {
+            display: inline-block;
+            background-color: $blue;
+            color: white;
+            height: 31px;
+            padding: 0 50px 0 50px;
+        }
+        p {
+            font-family: 'Helvetica';
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+    }
+}
+
+//Body Section
+#body-section {
+    display: flex;
+    #filters-body {
+        width: 29%;
+        height: 100%;
+        background-color: $softgray;
+    }
+    #products-body {
+        width: 79%;
+        height: 100%;
     }
 }

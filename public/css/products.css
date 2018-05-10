@@ -1,21 +1,28 @@
 @font-face {
   font-family: 'Avenir_Black';
-  src: url("fonts/Avenir_Black.otf");
+  src: url("public/fonts/Avenir_Black.otf");
 }
 
 @font-face {
   font-family: 'Avenir_Medium';
-  src: url("fonts/Avenir_Medium.otf");
+  src: url("public/fonts/Avenir_Medium.otf");
 }
 
 @font-face {
   font-family: 'Helvetica';
-  src: url("fonts/HelveticaNeue.ttf");
+  src: url("public/fonts/HelveticaNeue.ttf");
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  color: #28aef1;
+  font-family: 'Avenir_Black';
+  font-size: 49px;
+  margin-bottom: 12px;
 }
 
 h2 {
@@ -115,5 +122,57 @@ header #menu #shoppingcart {
   height: 40px;
   display: inline-block;
   max-height: 40px;
+}
+
+#search-div {
+  background-color: #f7c238;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#search-div #title-wrapper {
+  margin-left: 80px;
+}
+
+#search-div #title-wrapper input {
+  display: inline-block;
+  width: 400px;
+  height: 30px;
+  border-radius: 19.5px;
+  padding-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+}
+
+#search-div #title-wrapper button {
+  display: inline-block;
+  background-color: #28aef1;
+  color: white;
+  height: 31px;
+  padding: 0 50px 0 50px;
+}
+
+#search-div #title-wrapper p {
+  font-family: 'Helvetica';
+  color: white;
+  font-size: 16px;
+}
+
+#body-section {
+  display: flex;
+}
+
+#body-section #filters-body {
+  width: 29%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+#body-section #products-body {
+  width: 79%;
+  height: 100%;
 }
 /*# sourceMappingURL=products.css.map */
