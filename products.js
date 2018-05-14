@@ -24,7 +24,7 @@ app.get("/", function (req, res) {
 MongoClient.connect(`mongodb+srv://srestrepo:<PASSWORD>@cluster0-sreik.mongodb.net/products`, {
         auth: {
             user: 'srestrepo',
-            password: '980725'
+            password: '0ymt8cyZTgZf6m2T'
         }
     },
     function (err, clien) {
