@@ -1,0 +1,73 @@
+{
+    "products": [{
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        },
+        {
+            "name": "Polaroid Snap Touch Camera",
+            "prize": 500,
+            "popularity": 10,
+            "typology": "camera",
+            "image": "imgs/products/db/snapcamera.png"
+        }
+    ]
+}

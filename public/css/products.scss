@@ -4,12 +4,14 @@ $softgray: #f1f1f1;
 $gray: #333333;
 @font-face {
     font-family: 'Avenir_Black';
-    src: url('public/fonts/Avenir_Black.otf');
+    src: url('public/fonts/Avenir_Black.otf') format('otf'),
+         url('public/fonts/Avenir_Black.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Avenir_Medium';
-    src: url('public/fonts/Avenir_Medium.otf');
+    src: url('public/fonts/Avenir_Medium.otf') format('otf'),
+    url('public/fonts/Avenir_Medium.woff') format('woff');
 }
 
 @font-face {
@@ -159,6 +161,25 @@ header {
         width: 29%;
         height: 100%;
         background-color: $softgray;
+        padding: 6%;
+        label {
+            color: $blue;
+            margin-bottom: 12px;
+            font-family: 'Helvetica';
+        }
+        form {
+            margin-bottom: 12px;
+            font-family: 'Helvetica';
+        }
+        #order {
+            margin-top: 20px;
+        }
+        #typology {
+            margin-top: 20px;
+        }
+        #prize {
+            margin-top: 20px;
+        }
     }
     #products-body {
         width: 79%;

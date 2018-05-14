@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Avenir_Black';
-  src: url("public/fonts/Avenir_Black.otf");
+  src: url("public/fonts/Avenir_Black.otf") format("otf"), url("public/fonts/Avenir_Black.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir_Medium';
-  src: url("public/fonts/Avenir_Medium.otf");
+  src: url("public/fonts/Avenir_Medium.otf") format("otf"), url("public/fonts/Avenir_Medium.woff") format("woff");
 }
 
 @font-face {
@@ -169,6 +169,30 @@ header #menu #shoppingcart {
   width: 29%;
   height: 100%;
   background-color: #f1f1f1;
+  padding: 6%;
+}
+
+#body-section #filters-body label {
+  color: #28aef1;
+  margin-bottom: 12px;
+  font-family: 'Helvetica';
+}
+
+#body-section #filters-body form {
+  margin-bottom: 12px;
+  font-family: 'Helvetica';
+}
+
+#body-section #filters-body #order {
+  margin-top: 20px;
+}
+
+#body-section #filters-body #typology {
+  margin-top: 20px;
+}
+
+#body-section #filters-body #prize {
+  margin-top: 20px;
 }
 
 #body-section #products-body {
