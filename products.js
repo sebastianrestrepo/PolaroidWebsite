@@ -29,7 +29,7 @@ MongoClient.connect(`mongodb+srv://srestrepo:0ymt8cyZTgZf6m2T@cluster0-sreik.mon
             password: '0ymt8cyZTgZf6m2T'
         }
     },
-    function (err, clien) {
+    function (err, client) {
         if (err) throw err;
 
         db = client.db('products');
