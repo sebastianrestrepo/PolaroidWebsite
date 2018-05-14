@@ -2,7 +2,8 @@ const express = require('express'),
     consolidate = require('consolidate'),
     hbs = require('handlebars');
 
-const MongoClient = require('mongodb').MongoClient;
+const MongoClient = require('mongodb').MongoClient,
+    ObjectID = require('mongodb').ObjectID;
 
 var app = express();
 
@@ -21,7 +22,7 @@ app.get("/", function (req, res) {
 });*/
 
 //Conectarse a la base de datos
-MongoClient.connect(`mongodb+srv://srestrepo:<PASSWORD>@cluster0-sreik.mongodb.net/products`, {
+MongoClient.connect(`mongodb+srv://srestrepo:<PASSWORD>@cluster0-sreik.mongodb.net/products?retryWrites=true`, {
         auth: {
             user: 'srestrepo',
             password: '0ymt8cyZTgZf6m2T'
