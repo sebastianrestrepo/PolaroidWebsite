@@ -2,6 +2,8 @@ const express = require('express'),
     consolidate = require('consolidate'),
     hbs = require('handlebars');
 
+const MongoClient = require('mongodb').MongoClient;
+
 var app = express();
 
 app.engine('hbs', consolidate.handlebars);
