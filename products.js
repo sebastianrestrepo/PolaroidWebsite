@@ -5,7 +5,8 @@ const express = require('express'),
 const MongoClient = require('mongodb').MongoClient,
     ObjectID = require('mongodb').ObjectID;
 
-var app = express();
+var app = express(),
+    db;
 
 app.engine('hbs', consolidate.handlebars);
 app.set('view engine', 'hbs');
