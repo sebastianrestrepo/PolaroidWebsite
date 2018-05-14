@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 });*/
 
 //Conectarse a la base de datos
-MongoClient.connect(`mongodb+srv://cluster0-fxkcz.mongodb.net/products`, {
+MongoClient.connect(`mongodb+srv://srestrepo:<PASSWORD>@cluster0-sreik.mongodb.net/products?retryWrites=true`, {
         auth: {
             user: 'srestrepo',
             password: 'ContrasenaSegura1234'
@@ -31,7 +31,7 @@ MongoClient.connect(`mongodb+srv://cluster0-fxkcz.mongodb.net/products`, {
         db = client.db('products');
 
         //Iniciar servidor
-        app.listen(process.env.PORT || 1234)
+        app.listen(process.env.PORT || 1234);
     }
 );
 //cluster0-shard-00-00-sreik.mongodb.net:27017
