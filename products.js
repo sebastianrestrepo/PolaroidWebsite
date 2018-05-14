@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 });*/
 
 //Conectarse a la base de datos
-MongoClient.connect(`mongodb+srv://srestrepo:<PASSWORD>@cluster0-sreik.mongodb.net/products?retryWrites=true`, {
+MongoClient.connect(`mongodb+srv://srestrepo:<PASSWORD>@cluster0-sreik.mongodb.net/products`, {
         auth: {
             user: 'srestrepo',
             password: 'ContrasenaSegura1234'
